@@ -1,0 +1,96 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.header {
+    background-color: #6200ea;
+    color: white;
+    /* text-align: center; */
+    padding: 20px;
+   
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 600px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.btns button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btns button:hover {
+    background-color: #3700b3;
+}
+
+#todos {
+    margin-top: 20px;
+}
+
+#todos div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#todos h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+#todos button {
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+#todos button:hover {
+    background-color: #d32f2f;
+}
